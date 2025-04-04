@@ -90,4 +90,33 @@
                                 <td>Cardiofréquencemètre, podomètre, capteur de sommeil</td>
                             </tr>
                         </tbody>
+                    </table>
+                </section>
+
+                <section>
+                    <h1>Avis Clients</h1>
+                    <ol>
+                        <li><strong>Marie :</strong> "Excellente montre, très intuitive et pratique !"</li>
+                        <li><strong>Lucas :</strong> "Bonne autonomie et fonctionnalités au top."</li>
+                        <li><strong>Emma :</strong> "Parfait pour le sport, suivi précis et fiable."</li>
+                    </ol>
+                </section>
+                <section>
+                    <h1>Ajouter un commentaire</h1>
+                    <form action="/traitement.php" method="POST" enctype="multipart/form-data">
+
+                        <label for="nometprénom">Pseudonyme :</label>
+                        <br />
+                        <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
+                            placeholder="Indiquez votre pseudonyme"><br />
+
+                        <label for="mail">Email :</label><br />
+                        <input type="mail" id="mail" maxlength="50" name="mail" required
+                            placeholder="Indiquez votre email"><br />
+
+                        <label for="message">Message :</label><br />
+                        <textarea name="message" id="message" rows="5" cols="70"
+                            placeholder="Indiquez votre message"></textarea><br />
+
+                        <button type="submit">Ajouter mon commentaire</button><br />
                 </section>
