@@ -17,8 +17,11 @@
     <body>
         <div class="page">
             <header>
-                <img src="images/Logo.svg" alt="Logo" />
-                <h1>Montre Connectée SmartFit X</h1>
+                <picture>
+                    <source srcset="images/Logo.svg" />
+                    <img src="images/Logo.svg" alt="Logo" />
+                </picture>
+                <h1>Montre Connectée SmartFit</h1>
                 <nav>
                     <p>Accès rapide :</p>
                     <ul>
@@ -30,8 +33,9 @@
             </header>
             <main>
                 <picture>
-                    <source src="images/montre_mobile.jpg" alt="Montre Connectée SmartFit X" (max-width: 600px) />
-                    <img src="images/picture.jpg" alt="Montre Connectée SmartFit X" (max-width: 1024px) />
+                    <source srcset="images/montre_mobile.jpg" alt="Montre Connectée SmartFit X"
+                        media="(max-width 600)" />
+                    <img src="images/picture.jpg" alt="Montre Connectée SmartFit X" />
                 </picture>
                 <h1>Description</h1>
                 <p>La <strong>SmartFit X</strong> est une montre connectée équipée des dernières technologies. Elle vous
